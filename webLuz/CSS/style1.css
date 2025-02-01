@@ -1,0 +1,8 @@
+section {
+  justify-content: center;
+}
+main {
+  justify-content: center;
+  display: block;
+  background-color: rgb(150, 234, 206);
+}
