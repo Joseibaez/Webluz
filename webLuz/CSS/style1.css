@@ -1,8 +1,17 @@
+h1 {
+  background-color: blanchedalmond;
+}
 section {
-  justify-content: center;
+  display: block;
+  max-width: 50%;
+  background-color: antiquewhite;
+}
+img {
+  max-width: 50%;
 }
 main {
   justify-content: center;
   display: block;
   background-color: rgb(150, 234, 206);
+  max-width: 25%;
 }
