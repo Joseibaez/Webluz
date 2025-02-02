@@ -1,13 +1,31 @@
+/* css Reset: debe ir al principio y  garantizarás que todos los elementos de
+ tu proyecto inicien con 'margin' y 'padding' en 0 y empleen el modelo de caja "border-box". */
+* {
+  margin: 20;
+  padding: 20;
+  box-sizing: border-box;
+}
+
 h1 {
   background-color: blanchedalmond;
+  font-family: serif;
+  color: #d69642;
+  font-weight: lighter;
+  text-align: center;
 }
 section {
   display: block;
   max-width: 50%;
   background-color: antiquewhite;
+  padding: 20px;
+  width: 400px;
+  box-sizing: border-box;
 }
 img {
   max-width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: auto;
 }
 main {
   justify-content: center;
